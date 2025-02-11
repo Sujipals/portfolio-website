@@ -1,0 +1,3 @@
+git init
+git add
+git remote add origin https://github.com/Sujipals/portfolio-website.git
