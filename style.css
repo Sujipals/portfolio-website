@@ -1,11 +1,12 @@
 /* Reset some default styles */
 body {
-  background-color: tomato;
+  background-color: rgb(86, 68, 65);
+  margin: 0 auto;
 }
 
 h1, h2, h3, p, ul {
-  margin: 20;
-  padding: 20;
+  margin: 20px;
+  padding: 20px;
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
@@ -21,8 +22,7 @@ img {
   height: auto;
 }
 .image-container{
-  background-image: url("profilimg.jpg");
-  background-color: tomato;
+  background-image: url("mønss.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 18.75rem;
