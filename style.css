@@ -1,53 +1,73 @@
 /* Reset some default styles */
-body, h1, h2, h3, p, ul {
-    margin: 0;
-    padding: 0;
-  }
+body {
+  background-color: tomato;
+}
+
+h1, h2, h3, p, ul {
+  margin: 20;
+  padding: 20;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: aqua;
+}
+
+img {
+  max-width: 100%;   /* Makes the image responsive */
+  height: auto;
+}
+.image-container{
+  background-image: url("profilimg.jpg");
+  background-color: tomato;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 18.75rem;
+}
   
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-  }
+header {
+  background-color: green;
+  color: black(128, 128, 128);
+  text-align: center;
+  padding: 10px 0;
+}
   
-  header {
-    background-color: #333;
-    color: gray;
-    text-align: center;
-    padding: 20px 0;
-  }
+header h1 {
+    font-size: 3em;
+}
   
-  header h1 {
-    font-size: 2em;
-  }
-  
-  header nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-  }
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 6.25rem;
+}
   
   header nav ul li {
-    margin: 0 10px;
+    margin: 10px 10px;
   }
   
   header nav ul li a {
-    color: paleturquoise;
+    color: rgb(10, 20, 20);
     text-decoration: none;
   }
   
   section {
-    padding: 20px;
-    margin: 20px;
+    padding: 0.625rem;
+    margin: 0.625rem;
   }
   
   #portfolio .project {
-    margin-bottom: 15px;
+    margin-bottom: 0.313rem;
   }
   
   footer {
     background-color: #333;
     color: gainsboro;
     text-align: center;
-    padding: 10px 0;
+    padding: 0.625rem 0;
   }
   
