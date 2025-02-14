@@ -22,14 +22,14 @@ img {
   height: auto;
 }
 .image-container{
-  background-image: url("mønss.jpg");
+  background-image: url("fullstackimg.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 18.75rem;
 }
   
 header {
-  background-color: tomato;
+  background-color: cornflowerblue;
   color: black(128, 128, 128);
   text-align: center;
   padding: 10px 0;
