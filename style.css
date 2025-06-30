@@ -4,11 +4,17 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, p, ul {
+h1 {
   margin: 20px;
   padding: 20px;
   font-family: Arial, sans-serif;
   line-height: 1.6;
+}
+ h3,p,strong, ul {
+  margin: 20px;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1;
 }
 
 .flex-container {
@@ -32,7 +38,7 @@ header {
   background-color: cornflowerblue;
   color: black(128, 128, 128);
   text-align: center;
-  padding: 10px 0;
+  padding: 10px ;
 }
   
 header h1 {
@@ -60,14 +66,14 @@ header nav ul {
     margin: 0.625rem;
   }
   
-  #portfolio .project {
+  #portfolio {
     margin-bottom: 0.313rem;
   }
   
   footer {
     background-color: #333;
-    color: gainsboro;
+    color: rgb(3, 125, 170);
     text-align: center;
-    padding: 0.625rem 0;
+    padding: 10rem ;
   }
   
