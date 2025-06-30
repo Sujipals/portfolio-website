@@ -6,64 +6,56 @@
   <title>Sujitha Palanivel - Fullstack Developer</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
+<script src="functional.js" defer></script>
 
 </head>
 <body>
   <header>
     <h1>Sujitha Palanivel</h1>
     <p><strong>Working on Web Development</strong></p>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+      <a href="#about">About Me</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <a href="#resume">Resume</a>
+      </div>
+     <button class="openbtn" onclick="openNav()">☰ Toggle Sidepanel</button>
   </header>
   
    <div class="image-container">
  <!--  <img src="fullstackimg.jpg" width="1000"> -->
    </div>
-  
-<div class="flex-container">
   <section id="about">
     <h3>About Me</h3>
-    <p> I am a passionate web developer with expertise in front-end and back-end of web development. I love designing responsive websites and creating user-friendly experiences.</p>
+    <p> I am a passionate web developer with expertise in front-end and back-end of web development.
+       I love designing responsive websites and creating user-friendly experiences.</p>
   </section>
-
+<div class="flex-container">  
   <section id="portfolio">
-    <h3>Github</h3>
-    <div class="portfolio">
-      <i class="fa-brands fa-square-github"></i>
-      <a href="https://github.com/Sujipals" target="_blank">View on GitHub</a>
+      <div class="portfolio">     
+      <a href="https://github.com/Sujipals" target="_blank"> 
+        <i class="fa-brands fa-square-github"></i></a>
     </div>
   </section>
-
         <section id="linked-in">
-        <h3>Linkedin</h3>
-        <div class="linkedin">
-          <i class="fa-brands fa-linkedin"></i>
-          <a href="https://www.linkedin.com/in/sujitha-palanivel-397489296" target="_blank">Connecting linkedin</a>
-    
-         </div>
+          <div class="linkedin">
+          <a href="https://www.linkedin.com/in/sujitha-palanivel-397489296" target="_blank">
+            <i class="fa-brands fa-linkedin"></i></a>
+          </div>
        </section>
-  <section id="contact">
-    <h3>Contact</h3>
-    <p>
-      <i class="fa-solid fa-envelope"></i>
-      <a href="mailto:sujithamar08@gmail.com" target="_blank"> sujithamar08@gmail.com</a>
-    </p>
-    <p>
-      <i class="fa-solid fa-mobile"></i>
-    <a href="tel:4552610966">+45 52610966</a>
-    </p>
-  </section>  
-  <section id="resume">    
-    <h3>Resume</h3>
-    <p>
-      <i class="fa-solid fa-file-pdf"></i>
-      <a href="Resume.pdf" download>Download</a>
-    </p>
+  <section id="contact">      
+    <div>      
+      <a href="mailto:sujithamar08@gmail.com" target="_blank"> 
+        <i class="fa-solid fa-envelope"></i></a>
+      <a href="tel:4552610966"><i class="fa-solid fa-mobile"></i></a>
+      </div>
+    </section>  
+    <section id="resume">
+     <div>      
+      <a href="Resume.pdf" download>
+        <i class="fa-solid fa-file-pdf"></i></a>
+      </div>
   </section>
 </div>
 
