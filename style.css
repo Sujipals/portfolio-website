@@ -37,13 +37,30 @@ body {
   font-size: 36px;
 }
 
-.openbtn {
+/* .openbtn {
   font-size: 20px;
   cursor: pointer;
   background-color: #111;
   color: white;
   padding: 10px 15px;
+  margin-left: 1235px;
   border: none;
+} */
+
+
+.openbtn{
+  /* visual styles */
+  font-size:20px;
+  background:#111;
+  color:#fff;
+  padding:10px 15px;
+  border:none;
+  cursor:pointer;
+
+  /* positioning */
+  position:fixed;   /* or absolute */
+  top:60px;
+  right:10px;
 }
 
 .openbtn:hover {
